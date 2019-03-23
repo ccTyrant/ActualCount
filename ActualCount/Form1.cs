@@ -37,7 +37,7 @@ namespace ActualCount
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception) //error message
             {
                 MessageBox.Show("Not a valid JSON Link", "Not a valid JSON Link",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
